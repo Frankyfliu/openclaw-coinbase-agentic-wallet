@@ -23,6 +23,13 @@
   ],
   "author": "Frank",
   "license": "MIT",
+  "files": [
+    "index.js",
+    "lib/",
+    "SKILL.md",
+    "README.md",
+    "LICENSE"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Frankyfliu/openclaw-coinbase-agentic-wallet.git"
