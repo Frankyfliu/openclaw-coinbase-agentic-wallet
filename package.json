@@ -4,7 +4,7 @@
   "description": "Coinbase Agentic Wallet integration for OpenClaw AI agents",
   "main": "index.js",
   "scripts": {
-    "test": "node test/wallet.test.js && node test/safety.test.js",
+    "test": "mocha test/**/*.test.js",
     "lint": "echo 'Add eslint later'"
   },
   "dependencies": {
@@ -37,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/Frankyfliu/openclaw-coinbase-agentic-wallet/issues"
   },
-  "homepage": "https://github.com/Frankyfliu/openclaw-coinbase-agentic-wallet#readme"
+  "homepage": "https://github.com/Frankyfliu/openclaw-coinbase-agentic-wallet#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
 }
